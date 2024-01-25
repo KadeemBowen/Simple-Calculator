@@ -15,10 +15,11 @@ body {
 }
 
 #display {
-    width: 100%;
+    width: 92%;
+    margin-right: auto;
     margin-bottom: 10px;
-    padding: 5px;
-    font-size: 18px;
+    padding: 10px;
+    font-size: 20px;
 }
 
 .buttons {
@@ -37,7 +38,7 @@ button {
 }
 
 .equal {
-    grid-column: span 2;
+    grid-column: span 4;
     background-color: #3498db;
     color: #fff;
 }
