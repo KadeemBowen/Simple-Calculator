@@ -1,4 +1,5 @@
 body {
+    background-color: rgb(51, 47, 47);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +9,8 @@ body {
 
 .calculator {
     width: 300px;
-    border: 1px solid #ccc;
+    background-color: black;
+    border: 1px solid #000000;
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -39,6 +41,6 @@ button {
 
 .equal {
     grid-column: span 4;
-    background-color: #3498db;
-    color: #fff;
+    background-color: #f8a407;
+    color: #ffffff;
 }
